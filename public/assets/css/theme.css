@@ -1,0 +1,152 @@
+/* text formating */
+input, textarea, select {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 19pt;
+  font-weight: 300;
+  line-height: 1.75em;
+  color: #888;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+  color: #666;
+  line-height: 1.5em;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+  h1 a strong, h2 a strong, h3 a strong, h4 a strong, h5 a strong, h6 a strong {
+    color: #333;
+  }
+
+h2 {
+  font-size: 2em;
+  letter-spacing: -1px;
+}
+
+  h2.alt {
+    color: #888;
+  }
+
+    h2.alt strong {
+      color: #666;
+    }
+
+h3 {
+  font-size: 1.5em;
+}
+strong, b {
+  font-weight: 300;
+  color: #666;
+}
+
+em, i {
+  font-style: italic;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  border-bottom: dotted 1px rgba(128, 128, 128, 0.5);
+  -moz-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+  -webkit-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+  -ms-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+  transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+  outline: 0;
+}
+  a:hover {
+    color: #E27689;
+    border-bottom-color: rgba(255, 255, 255, 0);
+  }
+sub {
+  position: relative;
+  top: 0.5em;
+  font-size: 0.8em;
+}
+
+sup {
+  position: relative;
+  top: -0.5em;
+  font-size: 0.8em;
+}
+hr {
+  border: 0;
+  border-top: solid 1px #ddd;
+}
+
+blockquote {
+  border-left: solid 0.5em #ddd;
+  padding: 1em 0 1em 2em;
+  font-style: italic;
+}
+
+p, ul, ol, dl, table {
+  margin-bottom: 2em;
+}
+
+ /* Header */
+ #header .icons {
+  font-size: 0.8em;
+  text-align: center;
+}
+
+  #header .icons a {
+    color: #41484c;
+    -moz-transition: color 0.35s ease-in-out;
+    -webkit-transition: color 0.35s ease-in-out;
+    -ms-transition: color 0.35s ease-in-out;
+    transition: color 0.35s ease-in-out;
+  }
+
+    #header .icons a:hover {
+      color: #fff;
+    }
+
+/* Main */
+
+#main > section.dark {
+  color: #ddd;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+  #main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
+    color: inherit;
+  }
+
+  #main > section.dark strong {
+    color: #fff;
+    border-color: inherit;
+  }
+
+  #main > section.dark a {
+    color: #fff;
+    border-color: inherit;
+  }
+
+    #main > section.dark a:hover {
+      border-bottom-color: rgba(255, 255, 255, 0);
+    }
+
+			#main > section.cover {
+				padding: 10em 0;
+				background-size: cover;
+				background-position: center center;
+			}
+
+			#main > section.one {
+				background-color: #81918E;
+				background-image: url("../../images/banner.jpg");
+			}
+
+			#main > section.two {
+				background-color: #f5fafa;
+			}
+
+			#main > section.three {
+				background-color: #ecf1f1;
+			}
+
+			#main > section.four {
+				background-color: #e8edec;
+      }
+
