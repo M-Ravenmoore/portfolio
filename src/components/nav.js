@@ -1,5 +1,11 @@
 import React from 'react'
 
+const navStyles= {
+  display:"flex",
+  
+
+}
+
 export default function Nav(){
   return(
     <div id="nav">
@@ -10,8 +16,8 @@ export default function Nav(){
           </a>
         </li>
         <li>
-          <a href={`/portfolio`} >
-           Portfolio
+          <a href={`/projects`} >
+           Projects
           </a>
         </li>
       </ul>
