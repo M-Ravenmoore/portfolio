@@ -16,7 +16,7 @@ const ProjectsHeader = props =>(
       <div className="inner">
         <h1>Matt Ravenmoore's Projects</h1>
         <p>
-         Theses are a few of the projects i have worked on recently.
+         These are a few of the projects I have worked on recently.
         </p>
       </div>
     </div>

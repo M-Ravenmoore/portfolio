@@ -27,7 +27,7 @@ class ProjectsMain extends React.Component {
           <span className="image main">
             <img src='' alt="" />
           </span>
-          <p>Currently raven maze is a simple accelerataromiter maze game for android. built in React Native its features include taping the phones tilt sensor to controll a ball to guide it through a randomly generated maze.
+          <p>Currently Raven Maze is a simple accelerataromiter maze game for android. Built in React Native, its features include tapping into the phones tilt sensor to control a ball to guide it through a randomly generated maze.
             
             Future feature will be:
             difficulty settings, more maps, a story mode, and more....
@@ -45,12 +45,12 @@ class ProjectsMain extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">The Dragons Kitchen</h2>
-          <p>A diverse kitchen helper app that i started in a break between classes.
+          <p>A diverse kitchen helper app that I started in a break between classes.
             This app is web driven express app with many features. a few are as follows:
-            Authentication and authorixation with cookies and Oauth intigrations.
-            searches a recipe API for recipes and related information.
+            Authentication and authorization with cookies and Oauth integrations,
+            Searches a recipe API for recipes and related information,
             and it can store that recipe information in a SQL database with user sepeartion. 
-            this means it users have individual faveroites lists.
+            Meaning users have individual favorites lists.
           </p>
 
           <a href="https://dragons-kitchen.herokuapp.com/"><button>Live Site</button></a>
