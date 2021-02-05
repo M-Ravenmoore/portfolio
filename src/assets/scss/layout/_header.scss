@@ -62,10 +62,23 @@
     }
   }
 
-  .logo {
+  .logoImg{
+    width: 5.25rem;
+    height: 5.25rem;
+    line-height: 5.5rem;
+    
+    .icon {
+      &:before {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  .logo{
     width: 5.5rem;
     height: 5.5rem;
     line-height: 5.5rem;
+    background-color:  _palette(logo-underlay);
     border: solid _size(border-width) _palette(border);
     border-radius: 100%;
 
@@ -84,6 +97,7 @@
     max-width: 100%;
 
     .inner {
+      
       @include vendor(
         'transition',
         (
@@ -101,8 +115,9 @@
         margin-bottom: 0;
       }
     }
-
+    background-color: _palette(button-overlay);
     p {
+      
       text-transform: uppercase;
       letter-spacing: _font(letter-spacing);
       font-size: 0.8rem;
@@ -217,7 +232,7 @@
       }
     }
 
-    .logo {
+    .logo ,.logoImg {
       width: 4.75rem;
       height: 4.75rem;
       line-height: 4.75rem;
@@ -245,6 +260,7 @@
 
     .content {
       .inner {
+        
         padding: 2.5rem 0;
       }
     }

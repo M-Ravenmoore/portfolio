@@ -24,9 +24,9 @@
     "gatsby-plugin-sitemap": "^2.12.0",
     "gatsby-source-filesystem": "^2.11.0",
     "gatsby-transformer-sharp": "^2.12.0",
+    "node-sass": "^4.13.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "node-sass": "^4.13.1",
     "react-helmet": "^5.2.1"
   },
   "devDependencies": {
