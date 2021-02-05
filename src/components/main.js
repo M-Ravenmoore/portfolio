@@ -54,9 +54,9 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
+          <h2 className="major">About Me</h2>
           <span className="Headshot">
-            <img  className='Headshot' src={Headshot} alt="Matt Ravenmoore Headshot"/>
+            <img  className='image main' src={Headshot} alt="Matt Ravenmoore Headshot"/>
           </span>
           <p>I am Matt Ravenmoore, and I am a software enginer. My backgound is in creating magic, of variying kinds. From theater and circus magic of building and creating sets and performances coming together. To metal fabrication and blacksmithing, i have lead a life full of adventures and learning and strive to keep it that way. I push my self to try or learn 3-5 new things every day, this goal helps me push myself to be the best human i can.</p>
           {close}
