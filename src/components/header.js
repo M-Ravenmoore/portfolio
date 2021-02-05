@@ -10,7 +10,7 @@ const headerStyles = {
 const Header = props =>(
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      <img  className='logoImg' src={LogoImg} alt="logo"/>
+    <a href="/"><img className='logoImg' src={LogoImg} alt="logo"/></a>
     </div>
     <div className="content">
       <div className="inner">

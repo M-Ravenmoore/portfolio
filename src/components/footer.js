@@ -6,12 +6,12 @@ const Footer= (props) =>(
     <p>&copy; M.Ravenmoore</p>
     <ul className="icons">
       <li>
-        <a href="https://" className="icon fa-linkedin">
+        <a href="https://www.linkedin.com/public-profile/in/matt-ravenmoore" className="icon fa-linkedin">
           <span className="label">LinkedIn</span>
         </a>
       </li>
       <li>
-        <a href="https://" className="icon fa-instagram">
+        <a href="https://www.instagram.com/m.ravenmoore/" className="icon fa-instagram">
           <span className="label">Instagram</span>
         </a>
       </li>
