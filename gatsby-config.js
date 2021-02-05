@@ -1,24 +1,33 @@
+const path = require(`path`)
+
+
 module.exports = {
   siteMetadata: {
     title: "Portfolio",
   },
   plugins: [
-    "gatsby-plugin-sharp",
-    "gatsby-plugin-sitemap",
+    
     {
-      resolve: "gatsby-plugin-manifest",
+      resolve: `gatsby-plugin-manifest`,
       options: {
-        icon: "src/images/icon.png",
+        name: 'gatsby-starter-default',
+        short_name: 'starter',
+        start_url: '/',
+        background_color: '#663399',
+        theme_color: '#663399',
+        display: 'minimal-ui',
+        icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
       },
     },
-    "gatsby-transformer-sharp",
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: `gatsby-source-filesystem`,
       options: {
-        name: "images",
-        path: "./src/images/",
+        path: path.join(__dirname, `src`, `images`),
       },
-      __key: "images",
     },
+    'gatsby-plugin-sass',
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    'gatsby-plugin-react-helmet',
   ],
-};
+}
