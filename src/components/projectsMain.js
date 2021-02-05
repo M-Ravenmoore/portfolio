@@ -53,10 +53,28 @@ class ProjectsMain extends React.Component {
             this means it users have individual faveroites lists.
           </p>
 
-          <a href="https://dragons-kitchen.herokuapp.com/"><button>Projects</button></a>
+          <a href="https://dragons-kitchen.herokuapp.com/"><button>Live Site</button></a>
+          <a href="https://github.com/M-Ravenmoore/dragons-kitchen"><button>Repo</button></a>
+
           {close}
         </article>
-        
+
+        <article
+          id="TestAPI"
+          className={`${this.props.article === 'TestAPI' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="major">Personal Testing Api</h2>
+          <p>A helpfull little API server with both open and protected routes.
+            It handles users authorization and storage with a mongo db
+
+          </p>
+          <a href="https://ravenmoore-testapi.herokuapp.com/"><button>Backend Deployment</button></a>
+          <a href="https://github.com/M-Ravenmoore/Ravenmoore-testing-authApi"><button>Repo</button></a>
+          {close}
+        </article>
 
       </main>
     )
