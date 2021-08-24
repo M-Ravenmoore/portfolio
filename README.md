@@ -2,10 +2,16 @@
 
 ## Author: Matt Ravenmoore
 
+## Version: 2.0
+
+## Developer Links
+
 - [tests report](https://github.com/)
 - [front-end](https://ravenmoore-profile.netlify.app/)
 
 ### Setup
+
+Bring down code and run `npm i`
 
 #### Running the app and testing scripts
 
