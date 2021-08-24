@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import Headshot from '../images/Headshot.jpg'
+import Headshot from '../images/Headshot.png'
 
 class Main extends React.Component {
   render() {
@@ -29,7 +29,7 @@ class Main extends React.Component {
           </span>
           <p>Welcome to Matt Ravenmoore's technical resume, if you are looking for Matt as a coder, developer or engineer, you have gotten to the right portfolio. If you are looking to see his other portfolio for metal fabrication and art, click the button below to be taken to Ravenmoore Valley, his family crafting business. </p>
 
-          <a href='https://ravenmoorevalley.ucraft.site/'><button>Ravenmoore Valley</button></a>
+          <a href='https://ravenmoore-valley.netlify.app/'><button>Ravenmoore Valley</button></a>
 
           {close}
         </article>

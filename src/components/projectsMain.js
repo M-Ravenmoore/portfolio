@@ -44,37 +44,16 @@ class ProjectsMain extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">The Dragons Kitchen</h2>
-          <p>A diverse kitchen helper app that I started in a break between classes.
-            This app is web driven express app with many features. a few are as follows:
-            Authentication and authorization with cookies and Oauth integrations,
-            Searches a recipe API for recipes and related information,
-            and it can store that recipe information in a SQL database with user sepeartion. 
-            Meaning users have individual favorites lists.
+          <h2 className="major">The Dragons Server</h2>
+          <p>This is the Server and backend api for and up coming personal project of mine. It is a Node.js Express server using axios to make calls to an outside source. Then it will colate and store pertinate information to a Mongo Database.
           </p>
 
-          <a href="https://dragons-kitchen.herokuapp.com/"><button>Live Site</button></a>
-          <a href="https://github.com/M-Ravenmoore/dragons-kitchen"><button>Repo</button></a>
+          <a href="https://the-dragons-server.herokuapp.com"><button>Live Site</button></a>
+          <a href="https://github.com/M-Ravenmoore/the-dragons-server"><button>Repo</button></a>
 
           {close}
         </article>
 
-        <article
-          id="TestAPI"
-          className={`${this.props.article === 'TestAPI' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
-          style={{ display: 'none' }}
-        >
-          <h2 className="major">Personal Testing Api</h2>
-          <p>A helpfull little API server with both open and protected routes.
-            It handles users authorization and storage with a mongo db
-
-          </p>
-          <a href="https://ravenmoore-testapi.herokuapp.com/"><button>Backend Deployment</button></a>
-          <a href="https://github.com/M-Ravenmoore/Ravenmoore-testing-authApi"><button>Repo</button></a>
-          {close}
-        </article>
 
       </main>
     )

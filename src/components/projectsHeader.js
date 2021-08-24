@@ -40,15 +40,6 @@ const ProjectsHeader = props =>(
             The Dragons Kitchen
           </button>
         </li>
-        <li>
-          <button
-            onClick={() => {
-              props.onOpenArticle('TestAPI')
-            }}
-          >
-            Testing Api
-          </button>
-        </li>
       </ul>
     </nav>
   </header>
