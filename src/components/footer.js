@@ -11,7 +11,7 @@ const Footer= (props) =>(
         </a>
       </li>
       <li>
-        <a href="https://www.instagram.com/m.ravenmoore/" className="icon fa-instagram">
+        <a href="https://www.instagram.com/dusklorne/" className="icon fa-instagram">
           <span className="label">Instagram</span>
         </a>
       </li>

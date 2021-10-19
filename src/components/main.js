@@ -58,7 +58,7 @@ class Main extends React.Component {
           <span className="Headshot">
             <img  className='image main' src={Headshot} alt="Matt Ravenmoore Headshot"/>
           </span>
-          <p>I am Matt Ravenmoore and I am a software engineer. My backgound is in creating magic of varying kinds. From the theater and circus magics of building and creating sets and performances coming together. To metal fabrication and blacksmithing, I have lead a life full of adventures and learning and strive to keep it that way. I push my self to try or learn 3-5 new things every day, this goal helps me push myself to be the best human I can.</p>
+          <p>I am Matt Ravenmoore and I am a Node.js enginer and software designer. My backgound is in creating magic of varying kinds. From the theater and circus magics of building and creating sets and performances coming together. To metal fabrication and blacksmithing, I have lead a life full of adventures and learning and strive to keep it that way. I push my self to try or learn 3-5 new things every day, this goal helps me push myself to be the best human I can.</p>
           {close}
         </article>
 
