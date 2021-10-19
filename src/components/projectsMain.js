@@ -38,21 +38,21 @@ class ProjectsMain extends React.Component {
         </article>
 
         <article
-          id="TDK"
-          className={`${this.props.article === 'TDK' ? 'active' : ''} ${
+          id="Ravenmoore"
+          className={`${this.props.article === 'Ravenmoore' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">The Dragons Server</h2>
-          <p>This is the Server and backend api for and up coming personal project of mine. It is a Node.js Express server using axios to make calls to an outside source. Then it will colate and store pertinate information to a Mongo Database.
+          <h2 className="major">Ravenmoore Valley</h2>
+          <p>This is my biggest personal project a full community web app and eventualy store for my families crafting bussiness. It is a Full MERN stack app with a standalone express api. 
           </p>
 
-          <a href="https://the-dragons-server.herokuapp.com"><button>Live Site</button></a>
-          <a href="https://github.com/M-Ravenmoore/the-dragons-server"><button>Repo</button></a>
-
+          <a href="https://ravenmoore-valley.netlify.app"><button>Live Site</button></a>
+          <a href="https://github.com/M-Ravenmoore/ravenmoore-valley"><button>Repo</button></a>
           {close}
         </article>
+
 
 
       </main>

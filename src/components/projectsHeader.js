@@ -40,6 +40,15 @@ const ProjectsHeader = props =>(
             The Dragons Kitchen
           </button>
         </li>
+        <li>
+          <button
+            onClick={() => {
+              props.onOpenArticle('Ravenmoore')
+            }}
+          >
+            Ravenmoore Valley
+          </button>
+        </li>
       </ul>
     </nav>
   </header>
